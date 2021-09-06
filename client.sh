@@ -2,9 +2,9 @@
 #do   
 #    python client_mean.py -i $i -t 5 -m $1 -f "Eva/krum.txt" -w 20 &
 #done
-for((i=10;i<=19;i++));
+for((i=0;i<=1;i++));
 do
-    python client_label_inv.py -i $i -t 5 -m $1 -f "Eva/krum.txt" -w 20 &
+    python client_mean.py -i $i -t 5 -m $1 -f "Eva/krum.txt" -w 2 &
 done
 
 
